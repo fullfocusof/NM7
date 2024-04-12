@@ -1,0 +1,24 @@
+﻿  LSM.cpp
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(92,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(109,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(115,19): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(156,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(191,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(234,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(241,18): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(269,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(276,16): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(304,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(311,18): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(339,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(374,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(409,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(454,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(494,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(529,9): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(536,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(547,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(548,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(549,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Projects\NumMethods\LR7\LR7\LSM.cpp(550,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  LR7.vcxproj -> E:\Projects\NumMethods\LR7\x64\Debug\LR7.exe
