@@ -231,6 +231,18 @@ void LSM::squareFunc()
 
 void LSM::powFunc() // ln y(x) = ln(x) + m*ln(x) y < 0 ????
 {
+	for (auto& vec : data)
+	{
+		for (auto& el : vec)
+		{
+			if (el < 0)
+			{
+				cout << "Невозможно рассчитать степенную зависимость";
+				return;
+			}
+		}
+	}
+
 	int size = data[0].size();
 	float sumLnX = 0, sumLnY = 0, sumLnXY = 0, sumLnXSq = 0;
 	for (int i = 0; i < size; i++)
@@ -266,6 +278,15 @@ void LSM::powFunc() // ln y(x) = ln(x) + m*ln(x) y < 0 ????
 
 void LSM::expFunc() // ln y(x) = ln(a) + mx y < 0 ???
 {
+	for (auto& el : data[1])
+	{
+		if (el < 0)
+		{
+			cout << "Невозможно рассчитать экспоненциальную зависимость";
+			return;
+		}
+	}
+
 	int size = data[0].size();
 	float sumX = 0, sumLnY = 0, sumXLnY = 0, sumXSq = 0;
 	for (int i = 0; i < size; i++)
@@ -301,6 +322,15 @@ void LSM::expFunc() // ln y(x) = ln(a) + mx y < 0 ???
 
 void LSM::lnFunc()
 {
+	for (auto& el : data[0])
+	{
+		if (el < 0)
+		{
+			cout << "Невозможно рассчитать логарифмическую зависимость";
+			return;
+		}
+	}
+
 	int size = data[0].size();
 	float sumLnX = 0, sumY = 0, sumLnXY = 0, sumLnXSq = 0;
 	for (int i = 0; i < size; i++)
